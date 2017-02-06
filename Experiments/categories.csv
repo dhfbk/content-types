@@ -1,0 +1,110 @@
+FILENAME	GENRE	CATEGORY	CLAUSE_FREQ
+ABC19980108.1830.0711	news	train	55
+ABC19980114.1830.0611	news	train	34
+ABC19980120.1830.0957	news	train	49
+ABC19980304.1830.1636	news	train	35
+AP_20130322	news	test	37
+CNN_20130321_821	news	train	19
+CNN_20130322_1003	news	train	58
+CNN_20130322_1243	news	train	50
+CNN_20130322_248	news	train	21
+CNN_20130322_314	news	train	21
+WSJ_20130318_731	news	train	22
+WSJ_20130321_1145	news	train	31
+WSJ_20130322_159	news	train	35
+WSJ_20130322_804	news	train	37
+bbc_20130322_1150	news	test	44
+bbc_20130322_1353	news	test	27
+bbc_20130322_1600	news	train	17
+bbc_20130322_332	news	train	37
+bbc_20130322_721	news	train	24
+news_20000410_nyt-NEW.txt	news	test	33
+news_20000415_apw_eng-NEW.txt	news	test	36
+news_20000419_apw_eng-NEW.txt	news	test	31
+news_20000424_nyt-NEW.txt	news	train	7
+news_A1.E1-NEW.txt	news	test	21
+news_A1.E2-NEW.txt	news	test	24
+news_wsj_0132.txt	news	train	16
+news_wsj_0169.txt	news	test	12
+news_wsj_0171.txt	news	test	20
+news_wsj_0172.txt	news	test	15
+news_wsj_0173.txt	news	train	20
+news_wsj_0175.txt	news	train	16
+news_wsj_0176.txt	news	train	16
+news_wsj_0187.txt	news	train	31
+news_wsj_0189.txt	news	train	25
+news_wsj_1640.mrg-NEW.txt	news	train	63
+news_wsj_2465.txt	news	train	95
+nyt_20130321_china_pollution	news	train	42
+nyt_20130321_cyprus	news	train	62
+nyt_20130321_sarkozy	news	train	16
+nyt_20130321_women_senate	news	train	54
+nyt_20130322_strange_computer	news	train	28
+wsj_0006.xml.conll.txt	news	train	6
+wsj_0136.xml.conll.txt	news	train	12
+wsj_0165.xml.conll.txt	news	train	18
+wsj_0184.xml.conll.txt	news	train	39
+wsj_0238.xml.conll.txt	news	train	33
+wsj_0329.xml.conll.txt	news	train	14
+wsj_0346.xml.conll.txt	news	train	17
+wsj_0364.xml.conll.txt	news	train	7
+wsj_0427.xml.conll.txt	news	train	20
+wsj_0504.xml.conll.txt	news	train	57
+wsj_0505.xml.conll.txt	news	train	21
+wsj_0542.xml.conll.txt	news	train	34
+wsj_0583.xml.conll.txt	news	train	92
+wsj_0610.xml.conll.txt	news	train	103
+wsj_0677.xml.conll.txt	news	train	67
+wsj_0679.xml.conll.txt	news	train	25
+wsj_0751.xml.conll.txt	news	train	9
+wsj_0763.xml.conll.txt	news	train	23
+wsj_0786.xml.conll.txt	news	train	36
+wsj_0804.xml.conll.txt	news	train	88
+wsj_0807.xml.conll.txt	news	train	49
+wsj_0815.xml.conll.txt	news	train	9
+wsj_0902.xml.conll.txt	news	train	13
+wsj_0910.xml.conll.txt	news	train	46
+wsj_0913.xml.conll.txt	news	train	7
+wsj_0926.xml.conll.txt	news	train	18
+wsj_0930.xml.conll.txt	news	train	30
+wsj_0932.xml.conll.txt	news	train	22
+wsj_0936.xml.conll.txt	news	train	123
+wsj_0939.xml.conll.txt	news	train	24
+wsj_0942.xml.conll.txt	news	train	74
+wsj_0977.xml.conll.txt	news	train	36
+wsj_1006.xml.conll.txt	news	train	64
+wsj_1008.xml.conll.txt	news	train	15
+wsj_1011.xml.conll.txt	news	train	29
+wsj_1014.xml.conll.txt	news	train	79
+wsj_1018.xml.conll.txt	news	train	16
+wsj_1038.xml.conll.txt	news	train	24
+wsj_1246.xml.conll.txt	news	train	73
+wsj_1334.xml.conll.txt	news	train	47
+wsj_1415.xml.conll.txt	news	train	49
+wsj_1424.xml.conll.txt	news	train	125
+wsj_1426.xml.conll.txt	news	train	9
+11)Sant_Agata, Sorrento.txt	historical_travel	train	227
+6)Viareggio_February.txt	historical_travel	train	281
+1)GENOA, February 19th.....	historical_travel	train	238
+10)NAPLES, March 7th.txt	historical_travel	train	45
+11)CAVA DEI TIRRENI, Marc...	historical_travel	train	98
+12)CAVA DEI TIRRENI, Marc...	historical_travel	train	315
+13)SORRENTO, March 11th.t...	historical_travel	train	64
+14)CAPRI, March 13th.txt	historical_travel	train	70
+15)HOTEL B., NAPLES, Marc...	historical_travel	train	63
+2)GENOA, February 20th.t...	historical_travel	train	179
+3)GENOA, February 21st.t...	historical_travel	train	16
+39)ASSISI, Saturday Eveni...	historical_travel	train	76
+4)RIVIERA, February 22d....	historical_travel	test	83
+5)RIVIERA, February 25th...	historical_travel	train	92
+6)RIVIERA, February 26th.txt	historical_travel	train	119
+7)NAPLES, March 2d.txt	historical_travel	train	71
+8)NAPLES, March 4th.txt	historical_travel	test	69
+9)NAPLES, March 6th.txt	historical_travel	train	154
+1)Saunterings-VESUVIUS_1.txt	historical_travel	test	74
+1)Three_Months_Abroad.txt	historical_travel	train	132
+2)Three_Months_Abroad.txt	historical_travel	train	237
+7)Night_at_Pompeii_SKETCHES_AND_STUDIES.txt	historical_travel	test	51
+CHAPTER_I_Naples_By_Ionan_Sea.txt	historical_travel	train	216
+Chapter_XIX_The_Youthful_Wanderer.txt	historical_travel	train	105
+VESUVIUS_From_sketch-book_and_diary.txt	historical_travel	test	83

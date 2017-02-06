@@ -1,0 +1,32 @@
+
+This folder contains the following data:
+
+- categories.cvs: it reports file name, genre (news or historical_travel), and partition between train and test data.
+- the folder ./crf_template/ contains the templates used to train the CRF models.
+- the folder ./crf_out/ contains the outputs on the test data of the CRF models.
+- the folder ./crf_models/ contains the CRF models obtained from the training data.
+- the folder ./svm_train/ contains the training data in csv format to be converted with VectorEmbed in Ruby.
+- the folder ./svm_test/ contains the test data in csv format to be converted with VectorEmbed in Ruby.
+- the folder ./svm_out/ contains the predicted output of the trained models on the test data.
+
+To use the CRF datasets: https://taku910.github.io/crfpp/
+To use the SVM datasets: https://www.csie.ntu.edu.tw/~cjlin/libsvm/ 
+Note for SVM:
+- csv data must be converted using Ruby VectorEmbed (csv2libsvm - https://www.ruby-toolbox.com/projects/vector_embed) to obtain the LibSVM format.
+- in LibSVM data (train and test) are scaled between -1 and 1.
+- after these two operations, you can train the models with the training data and apply them to the test data
+
+Evaluation scripts:
+Note: you need Scikit-learn (http://scikit-learn.org/stable/) to run all evaluation scripts.
+
+- Baseline: majority voting per text genre. You can compute check the baseline scores by running "python2 compute_evaluation_baseline.py baseline.out"
+- CRF output: You can compute check the CRF outputs by running "python2 compute_evaluation_from_CRF.py ./crf_out/systemName.out"
+- SVM output: You can compute check the SVM outputs by running "python2 compute_evaluation_from_SVM.py ./svm_test/test_file.libsvm.scale ./svm_test/systemName.predict"
+To compare the results with the CRF output, this is the convertion from numerical to categorial labels, following the classes defined in the Annotation Guidelines:
+1 = NARRATIVE
+2 = ARGUMENTATIVE
+3 = DESCRIPTIVE
+4 = EXPOSITORY
+5 = NONE
+6 = OTHER
+7 = INSTRUCTIVE

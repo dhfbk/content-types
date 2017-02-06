@@ -1,0 +1,7 @@
+CONTENT TYPE DATASET VERSION 1.0
+
+This folder contains data annotated following the Content Types annotation guidelines. Texts are  divided in two compressed files:
+- Travel_Reports.zip
+- News.zip
+
+Files were annotated using CAT (Content Annotation Tool: http://dh.fbk.eu/resources/cat-content-annotation-tool) and they are provided in the CAT format that is stand-off XML-based.

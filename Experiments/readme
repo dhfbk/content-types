@@ -24,7 +24,7 @@ Note: you need Scikit-learn (http://scikit-learn.org/stable/) to run all evaluat
 - SVM output: You can compute check the SVM outputs by running "python2 compute_evaluation_from_SVM.py ./svm_test/test_file.libsvm.scale ./svm_test/systemName.predict"
 To compare the results with the CRF output, this is the convertion from numerical to categorial labels, following the classes defined in the Annotation Guidelines:
 1 = NARRATIVE
-2 = ARGUMENTATIVE
+2 = EVALUATIVE
 3 = DESCRIPTIVE
 4 = EXPOSITORY
 5 = NONE

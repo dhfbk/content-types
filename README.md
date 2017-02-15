@@ -1,5 +1,5 @@
-# README
-This repository contains 
+#READ ME
+###This repository contains
 - the guidelines for the annotation of content types (Annotationofcontenttypes.pdf)
 - the Content Type Dataset Version 1.0 (in the folder "CTD_V1")
 
